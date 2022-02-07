@@ -1,0 +1,116 @@
+@font-face {
+    font-family: Gotham;
+    src: url(GothamLight.ttf);
+}
+body {
+	margin: 4px 2px 0px 2px;
+	background-image: linear-gradient(to right, #951725 , #4e0072);
+	font-family: Gotham ,arial;
+}
+.header {
+	width: 100%;
+}
+.header_img {
+	width: 100%;
+	border: 0px solid white;
+	border-radius: 0px 0px 10px 10px;
+	box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+.container {
+	width: 80%;
+	height: 60%;
+	margin: auto;
+	margin-top: 20px;
+	background: white;
+	border: 1px solid white;
+	border-radius: 5px 5px  20px 20px;
+	box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+.container_header_text {
+	color: #420072;
+	font-size: 24px; 
+	font-weight: bold;
+}
+.container_header_illus {
+	color: #b81221;
+	font-size: 22px;
+
+}
+.container_content {
+	color: #46c8e1;
+	font-size: 20px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+.start_div {
+	width: 20%;
+	margin: auto;
+}
+.start_btn {
+	width: 100%;
+	color: white;
+	background-color: #911722;
+	border: 1px solid white;
+	padding: 10px;
+	margin-top: 20px;
+	border-radius: 10px;
+	font-size: 20px;
+	box-shadow: 0 9px #a33944;  
+}
+.start_btn:hover {
+	background-color: #55007a;
+}
+
+.start_btn:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(7px);
+}
+.icongroup {
+	width: 400px;
+	margin: auto;
+	border: none;
+}
+.icon_png {
+	width: 20%;
+	margin-top: 20px;
+	margin-left: 30px;
+	opacity: 0.5;
+}
+.loser_social {
+	margin-left: 20px;
+	font-size: 24px;
+	font-weight: bold;
+	color: yellow;
+}
+.container_content_loser {
+	margin-left: 20px;
+	font-size: 20px;
+	color: white;
+}
+.fullname_div {
+	margin: auto;
+	width: 700px;
+	margin-bottom: 30px;
+}
+.input_label {
+	display: inline;
+	font-size: 22px;
+	font-weight: bold;
+	color: #4e0072;
+	margin-left: 130px;
+}
+.input_fullname {
+	width: 400px;
+	font-size: 24px;
+	border: 3px solid #4e0072;
+	border-radius: 10px;
+	padding: 5px;
+
+}
+.email_div {
+	width: 1020px;
+}
+.submit_btn {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
